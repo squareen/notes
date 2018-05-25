@@ -8,7 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+
+extension NoteListViewController {
+    
+    @IBAction func cancelToPlayerViewController(_segue: UIStoryboardSegue) {
+        
+    }
+    
+    @IBAction func saveNotes(_segue: UIStoryboardSegue) {
+        
+    }
+}
+
+class NoteListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +31,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
